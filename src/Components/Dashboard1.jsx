@@ -1,5 +1,5 @@
 import { useState } from "react"
-import SideBar from "./Sidebar";
+import SideBar from "./Sidebar.jsx";
 import Chart from '../assets/Chart.png'
 const Dashboard1 = () => {
     const [show, setShow] = useState(false);
