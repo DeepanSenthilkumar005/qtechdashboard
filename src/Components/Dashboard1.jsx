@@ -1,5 +1,5 @@
 import { useState } from "react"
-import SideBar from "./Sidebar.jsx";
+import SideBar from "../Components/SideBar";
 import Chart from '../assets/Chart.png'
 const Dashboard1 = () => {
     const [show, setShow] = useState(false);
@@ -28,7 +28,7 @@ const Dashboard1 = () => {
                 {show &&
 
                     <div className="z-50">
-                        <SideBar className='w-fit' />
+                        <SideBar />
                     </div>
                 }
 
