@@ -1,6 +1,6 @@
 import { useState } from "react"
 import SideBar from "../Components/SideBar";
-import Chart from '../assets/Chart.png'
+import Chart from '../../src/assets/Chart.png'
 const Dashboard1 = () => {
     const [show, setShow] = useState(false);
     // const [taskId,setTaskId]=useState(3);
